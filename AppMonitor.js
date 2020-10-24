@@ -31,8 +31,7 @@ app可单独设置区域，未单独设置区域，则采用reg默认区域
 const $ = new API("App价格监控");
 let apps = [
   "1067198688|cn",
-  "539397400 cn",
-  
+  "539397400 cn"  
 ]; //app跟踪id
 if ($.read("apps") != "" && $.read("apps") != undefined) {
   apps = $.read("apps").split("，");
